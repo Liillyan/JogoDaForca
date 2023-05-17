@@ -1,4 +1,4 @@
-words = "Maçã", "Banana",  "Laranja",  "Morango",  "Abacaxi",  "Uva",  "Melancia",  "Pera",  "Manga",  "Kiwi"
+words = "Maca", "Banana",  "Laranja",  "Morango",  "Abacaxi",  "Uva",  "Melancia",  "Pera",  "Manga",  "Kiwi"
 
 
 
