@@ -2,7 +2,6 @@ import random
 from Palavras_Forca import words
 
 palavraCerta = random.choice(words).upper()
-print(palavraCerta)
 tentativas = 0
 chances = 4
 letraEscolhida = []
@@ -12,7 +11,7 @@ print(13*"=")
 print("JOGO DA FORCA")
 print(13*"=")
 
-while tentativas < chances:
+while tentativas < chances and ''.join(forcaAtual) != palavraCerta:
     letra = input("\nDigite uma letra: ").upper()
 
     while letra in letraEscolhida:
@@ -34,6 +33,12 @@ while tentativas < chances:
 
     for i in letraEscolhida:
         print(i, end=", ")
+
+if tentativas == chances:
+    print("\nVocê perdeu: atingiu o limite de tentativas")
+else:
+    print("\nParabens, voce ganhou!")
+print("A palavra era", palavraCerta)
 
 #trecho que não estou conseguindo implementar para que quando o usuario já souber a palavra consiga finalizar
 
