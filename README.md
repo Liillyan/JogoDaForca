@@ -12,5 +12,4 @@
 
 <h2>Melhorias Futuras</h2>
 
-- Refatorar o código incluindo a opção de perguntar ao usuario se ele já sabe qual é a palavra misteriosa durante o jogo.
 - Criação de uma interface, afim de eliminar a dependência do console como única forma de interação com o usuário.
